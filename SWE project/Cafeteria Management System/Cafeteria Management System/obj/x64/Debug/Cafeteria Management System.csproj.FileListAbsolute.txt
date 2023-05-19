@@ -13,3 +13,18 @@ X:\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\D
 X:\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria Management System.exe
 X:\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria Management System.pdb
 X:\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria_Management_System.dashboard.resources
+C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\bin\x64\Debug\Cafeteria Management System.exe.config
+C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\bin\x64\Debug\Cafeteria Management System.exe
+C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\bin\x64\Debug\Cafeteria Management System.pdb
+C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria Management System.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria Management System.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria_Management_System.dashboard.resources
+C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria_Management_System.firstForm.resources
+C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria_Management_System.Form1.resources
+C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria_Management_System.Login.resources
+C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria_Management_System.Properties.Resources.resources
+C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria Management System.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria Management System.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria Management System.csproj.CopyComplete
+C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria Management System.exe
+C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria Management System.pdb

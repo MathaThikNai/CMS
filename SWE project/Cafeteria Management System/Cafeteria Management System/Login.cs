@@ -33,7 +33,7 @@ namespace Cafeteria_Management_System
 
         private void btn_login_Click(object sender, EventArgs e)
         {
-            
+            bool found = false;
             for(int  i = 0; i < management.arr_stdnt.Count; i++)
             {
 
@@ -42,7 +42,14 @@ namespace Cafeteria_Management_System
                     this.Hide();
 
                     new dashboard().Show();
+                    found = true;
+                    break;
                 }
+                
+            }
+            if(!found)
+            {
+                MessageBox.Show("Invalid UserID or Password!");
             }
         }
     }
