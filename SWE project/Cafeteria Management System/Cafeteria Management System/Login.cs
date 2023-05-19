@@ -27,9 +27,7 @@ namespace Cafeteria_Management_System
 
 
 
-        OleDbConnection conn = new OleDbConnection("Provider=Microsoft.ACE.OleDb.16.0; Data Source =cms.accdb");
-
-        OleDbCommand cmd = new OleDbCommand();
+      
 
         private void btn_login_Click(object sender, EventArgs e)
         {
@@ -40,8 +38,14 @@ namespace Cafeteria_Management_System
                 if (Convert.ToInt32(txt_st_id.Text) == management.arr_stdnt[i].id && txt_pass.Text == management.arr_stdnt[i].password )
                 {
                     this.Hide();
-
-                    new dashboard().Show();
+                    if (management.arr_stdnt[i].status == "Residential")
+                    {
+                        new dashboard().Show();
+                    }
+                    else
+                    {
+                        //
+                    }
                     found = true;
                     break;
                 }
