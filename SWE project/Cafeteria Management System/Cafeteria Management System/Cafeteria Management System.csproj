@@ -95,6 +95,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="IsCancelled.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IsCancelled.Designer.cs">
+      <DependentUpon>IsCancelled.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,10 +108,19 @@
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="management.cs" />
+    <Compile Include="Nonres_Dash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nonres_Dash.Designer.cs">
+      <DependentUpon>Nonres_Dash.cs</DependentUpon>
+    </Compile>
     <Compile Include="Order.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="student.cs" />
+    <EmbeddedResource Include="Admin_Form.resx">
+      <DependentUpon>Admin_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dashboard.resx">
       <DependentUpon>dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,8 +130,14 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IsCancelled.resx">
+      <DependentUpon>IsCancelled.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nonres_Dash.resx">
+      <DependentUpon>Nonres_Dash.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

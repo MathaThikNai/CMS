@@ -28,3 +28,6 @@ C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management S
 C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria Management System.csproj.CopyComplete
 C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria Management System.exe
 C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria Management System.pdb
+C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria_Management_System.Admin_Form.resources
+C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria_Management_System.IsCancelled.resources
+C:\Users\User\OneDrive\Desktop\New folder\CMS\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria_Management_System.Nonres_Dash.resources
