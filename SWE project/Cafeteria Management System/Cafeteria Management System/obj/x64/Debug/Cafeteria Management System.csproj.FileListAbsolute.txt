@@ -1,0 +1,15 @@
+X:\SWE project\Cafeteria Management System\Cafeteria Management System\bin\x64\Debug\Cafeteria Management System.exe.config
+X:\SWE project\Cafeteria Management System\Cafeteria Management System\bin\x64\Debug\Cafeteria Management System.exe
+X:\SWE project\Cafeteria Management System\Cafeteria Management System\bin\x64\Debug\Cafeteria Management System.pdb
+X:\SWE project\Cafeteria Management System\Cafeteria Management System\bin\x64\Debug\Guna.UI.dll
+X:\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria Management System.csproj.AssemblyReference.cache
+X:\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria Management System.csproj.SuggestedBindingRedirects.cache
+X:\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria_Management_System.Form1.resources
+X:\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria_Management_System.Login.resources
+X:\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria_Management_System.Properties.Resources.resources
+X:\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria Management System.csproj.GenerateResource.cache
+X:\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria Management System.csproj.CoreCompileInputs.cache
+X:\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria Management System.csproj.CopyComplete
+X:\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria Management System.exe
+X:\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria Management System.pdb
+X:\SWE project\Cafeteria Management System\Cafeteria Management System\obj\x64\Debug\Cafeteria_Management_System.dashboard.resources
