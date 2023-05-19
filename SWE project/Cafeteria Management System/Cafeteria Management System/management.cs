@@ -11,9 +11,9 @@ namespace Cafeteria_Management_System
 
         public static List<student> arr_stdnt = new List<student>();
 
-        public static List<Order> arr_order = new List<Order>();
+        public static List<Res_order> arr_Resorder = new List<Res_order>();
 
-
+        public static List<NonResOrder> arr_nonres = new List<NonResOrder>();
 
     }
 }

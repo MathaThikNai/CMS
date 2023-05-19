@@ -40,11 +40,12 @@ namespace Cafeteria_Management_System
                     this.Hide();
                     if (management.arr_stdnt[i].status == "Residential")
                     {
-                        new dashboard().Show();
+                        new IsCancelled().Show();
+
                     }
                     else
                     {
-                        //
+                        new Nonres_Dash().Show();
                     }
                     found = true;
                     break;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cafeteria_Management_System
 {
-    public class Order
+    public abstract class Order
     {
 
         public string day { get; set; }
@@ -16,11 +16,30 @@ namespace Cafeteria_Management_System
         public string menu { get; set; }
 
 
-        public Order(string day, string type, string menu)
+    }
+
+    public class Res_order:Order
+    {
+
+
+        public  Res_order(string day, string type, string menu)
         {
             this.day = day;
             this.type = type;
             this.menu = menu;
+        }
+    }
+
+    public class NonResOrder:Order
+    {
+        public int payment { get; set; }
+
+        public NonResOrder(string day, string type, string menu)
+        {
+            this.day = day;
+            this.type = type;
+            this.menu = menu;
+
         }
     }
 }

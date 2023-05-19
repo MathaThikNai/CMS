@@ -137,7 +137,7 @@
             this.btn_place_order.ForeColor = System.Drawing.Color.White;
             this.btn_place_order.Image = null;
             this.btn_place_order.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_place_order.Location = new System.Drawing.Point(743, 557);
+            this.btn_place_order.Location = new System.Drawing.Point(743, 596);
             this.btn_place_order.Name = "btn_place_order";
             this.btn_place_order.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(145)))), ((int)(((byte)(221)))));
             this.btn_place_order.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
@@ -156,7 +156,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1016, 641);
+            this.ClientSize = new System.Drawing.Size(1016, 698);
             this.Controls.Add(this.btn_place_order);
             this.Controls.Add(this.dgw_order);
             this.Controls.Add(this.cmb_platter);
