@@ -153,7 +153,7 @@
             // 
             this.login_link_label.AutoSize = true;
             this.login_link_label.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.login_link_label.Location = new System.Drawing.Point(340, 675);
+            this.login_link_label.Location = new System.Drawing.Point(339, 664);
             this.login_link_label.Name = "login_link_label";
             this.login_link_label.Size = new System.Drawing.Size(61, 28);
             this.login_link_label.TabIndex = 9;

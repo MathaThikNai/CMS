@@ -138,5 +138,23 @@ namespace Cafeteria_Management_System
 
             }
         }
+
+        private void back__Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new firstForm().Show();
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Nonres_Dash_Load(object sender, EventArgs e)
+        {
+            txt_platter1.Text = menu_update.f;
+            txt_platter2.Text = menu_update.g;
+            txt_platter3.Text = menu_update.h;
+        }
     }
 }

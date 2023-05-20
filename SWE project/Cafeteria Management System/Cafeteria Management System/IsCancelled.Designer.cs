@@ -46,7 +46,7 @@
             this.btn_cancell.ForeColor = System.Drawing.Color.White;
             this.btn_cancell.Image = null;
             this.btn_cancell.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_cancell.Location = new System.Drawing.Point(-2, 12);
+            this.btn_cancell.Location = new System.Drawing.Point(-2, 37);
             this.btn_cancell.Name = "btn_cancell";
             this.btn_cancell.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(145)))), ((int)(((byte)(221)))));
             this.btn_cancell.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
@@ -55,7 +55,7 @@
             this.btn_cancell.OnHoverImage = null;
             this.btn_cancell.OnPressedColor = System.Drawing.Color.Black;
             this.btn_cancell.Radius = 20;
-            this.btn_cancell.Size = new System.Drawing.Size(308, 531);
+            this.btn_cancell.Size = new System.Drawing.Size(333, 506);
             this.btn_cancell.TabIndex = 25;
             this.btn_cancell.Text = "Cancel Todays Meal";
             this.btn_cancell.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -84,7 +84,7 @@
             this.btn_place_Order.OnHoverImage = null;
             this.btn_place_Order.OnPressedColor = System.Drawing.Color.Black;
             this.btn_place_Order.Radius = 20;
-            this.btn_place_Order.Size = new System.Drawing.Size(371, 476);
+            this.btn_place_Order.Size = new System.Drawing.Size(371, 506);
             this.btn_place_Order.TabIndex = 26;
             this.btn_place_Order.Text = "Place Order";
             this.btn_place_Order.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;

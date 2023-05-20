@@ -134,5 +134,11 @@ namespace Cafeteria_Management_System
         {
             fill_order();
         }
+
+        private void back_reg_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new firstForm().Show();
+        }
     }
 }

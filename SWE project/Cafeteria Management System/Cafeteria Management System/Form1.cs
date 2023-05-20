@@ -117,5 +117,11 @@ namespace Cafeteria_Management_System
 
 
         }
+
+        private void back_reg_Click(object sender, EventArgs e)
+        {
+            
+
+        }
     }
 }

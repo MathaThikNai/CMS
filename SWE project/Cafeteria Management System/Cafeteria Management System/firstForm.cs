@@ -20,7 +20,8 @@ namespace Cafeteria_Management_System
 
         private void btn_admin_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            new Admin_Form().Show();
         }
 
 
