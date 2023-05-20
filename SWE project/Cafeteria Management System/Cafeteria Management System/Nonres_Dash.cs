@@ -84,7 +84,22 @@ namespace Cafeteria_Management_System
 
         private void btn_place_order_Click(object sender, EventArgs e)
         {
-            NonResOrder od = new NonResOrder(cmb_day.Text, comboBox2.Text, cmb_platter.Text);
+
+            int y;
+
+            if(comboBox2.Text=="Breakfast")
+            {
+                y = 50;
+            }
+            else if(comboBox2.Text == "Lunch")
+            {
+                y = 100;
+            }
+            else
+            {
+                y = 120;
+            }
+            NonResOrder od = new NonResOrder(cmb_day.Text, comboBox2.Text, cmb_platter.Text,y);
             //add the payment option here!
             
             
@@ -155,6 +170,11 @@ namespace Cafeteria_Management_System
             txt_platter1.Text = menu_update.f;
             txt_platter2.Text = menu_update.g;
             txt_platter3.Text = menu_update.h;
+        }
+
+        private void btn_pay_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Payment Has been done!");
         }
     }
 }
