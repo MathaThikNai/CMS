@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dashboard));
             this.label1 = new System.Windows.Forms.Label();
             this.cmb_day = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -36,6 +37,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.dgw_order = new System.Windows.Forms.DataGridView();
             this.btn_place_order = new Guna.UI.WinForms.GunaGradientButton();
+            this.back_reg = new Guna.UI.WinForms.GunaAdvenceButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgw_order)).BeginInit();
             this.SuspendLayout();
             // 
@@ -152,11 +154,43 @@
             this.btn_place_order.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.btn_place_order.Click += new System.EventHandler(this.btn_place_order_Click);
             // 
+            // back_reg
+            // 
+            this.back_reg.AnimationHoverSpeed = 0.07F;
+            this.back_reg.AnimationSpeed = 0.03F;
+            this.back_reg.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.back_reg.BorderColor = System.Drawing.Color.Black;
+            this.back_reg.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.back_reg.CheckedBorderColor = System.Drawing.Color.Black;
+            this.back_reg.CheckedForeColor = System.Drawing.Color.White;
+            this.back_reg.CheckedImage = ((System.Drawing.Image)(resources.GetObject("back_reg.CheckedImage")));
+            this.back_reg.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.back_reg.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.back_reg.FocusedColor = System.Drawing.Color.Empty;
+            this.back_reg.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.back_reg.ForeColor = System.Drawing.Color.White;
+            this.back_reg.Image = null;
+            this.back_reg.ImageSize = new System.Drawing.Size(20, 20);
+            this.back_reg.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.back_reg.Location = new System.Drawing.Point(12, 0);
+            this.back_reg.Name = "back_reg";
+            this.back_reg.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.back_reg.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.back_reg.OnHoverForeColor = System.Drawing.Color.White;
+            this.back_reg.OnHoverImage = null;
+            this.back_reg.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.back_reg.OnPressedColor = System.Drawing.Color.Black;
+            this.back_reg.Size = new System.Drawing.Size(91, 38);
+            this.back_reg.TabIndex = 25;
+            this.back_reg.Text = "Back";
+            this.back_reg.Click += new System.EventHandler(this.back_reg_Click);
+            // 
             // dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1016, 698);
+            this.Controls.Add(this.back_reg);
             this.Controls.Add(this.btn_place_order);
             this.Controls.Add(this.dgw_order);
             this.Controls.Add(this.cmb_platter);
@@ -184,5 +218,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dgw_order;
         private Guna.UI.WinForms.GunaGradientButton btn_place_order;
+        private Guna.UI.WinForms.GunaAdvenceButton back_reg;
     }
 }

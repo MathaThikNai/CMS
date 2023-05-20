@@ -57,5 +57,26 @@ namespace Cafeteria_Management_System
                 MessageBox.Show("Invalid UserID or Password!");
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void back_login_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new firstForm().Show();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_st_id_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

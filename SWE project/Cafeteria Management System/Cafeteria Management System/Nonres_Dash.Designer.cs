@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Nonres_Dash));
             this.btn_place_order = new Guna.UI.WinForms.GunaGradientButton();
             this.dgw_order = new System.Windows.Forms.DataGridView();
             this.cmb_platter = new System.Windows.Forms.ComboBox();
@@ -36,6 +37,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.cmb_day = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.gunaGradientButton1 = new Guna.UI.WinForms.GunaGradientButton();
+            this.back_ = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txt_platter1 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txt_platter2 = new System.Windows.Forms.TextBox();
+            this.txt_platter3 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgw_order)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,7 +62,7 @@
             this.btn_place_order.ForeColor = System.Drawing.Color.White;
             this.btn_place_order.Image = null;
             this.btn_place_order.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_place_order.Location = new System.Drawing.Point(748, 575);
+            this.btn_place_order.Location = new System.Drawing.Point(514, 575);
             this.btn_place_order.Name = "btn_place_order";
             this.btn_place_order.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(145)))), ((int)(((byte)(221)))));
             this.btn_place_order.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
@@ -152,11 +161,127 @@
             this.label1.TabIndex = 25;
             this.label1.Text = "Day";
             // 
+            // gunaGradientButton1
+            // 
+            this.gunaGradientButton1.AnimationHoverSpeed = 0.07F;
+            this.gunaGradientButton1.AnimationSpeed = 0.03F;
+            this.gunaGradientButton1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaGradientButton1.BaseColor1 = System.Drawing.Color.SlateBlue;
+            this.gunaGradientButton1.BaseColor2 = System.Drawing.Color.Fuchsia;
+            this.gunaGradientButton1.BorderColor = System.Drawing.Color.Black;
+            this.gunaGradientButton1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaGradientButton1.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaGradientButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaGradientButton1.ForeColor = System.Drawing.Color.White;
+            this.gunaGradientButton1.Image = null;
+            this.gunaGradientButton1.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaGradientButton1.Location = new System.Drawing.Point(748, 575);
+            this.gunaGradientButton1.Name = "gunaGradientButton1";
+            this.gunaGradientButton1.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(145)))), ((int)(((byte)(221)))));
+            this.gunaGradientButton1.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
+            this.gunaGradientButton1.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaGradientButton1.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaGradientButton1.OnHoverImage = null;
+            this.gunaGradientButton1.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaGradientButton1.Radius = 20;
+            this.gunaGradientButton1.Size = new System.Drawing.Size(208, 54);
+            this.gunaGradientButton1.TabIndex = 32;
+            this.gunaGradientButton1.Text = "Payment";
+            this.gunaGradientButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaGradientButton1.Click += new System.EventHandler(this.btn_place_order_Click);
+            // 
+            // back_
+            // 
+            this.back_.AnimationHoverSpeed = 0.07F;
+            this.back_.AnimationSpeed = 0.03F;
+            this.back_.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.back_.BorderColor = System.Drawing.Color.Black;
+            this.back_.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.back_.CheckedBorderColor = System.Drawing.Color.Black;
+            this.back_.CheckedForeColor = System.Drawing.Color.White;
+            this.back_.CheckedImage = ((System.Drawing.Image)(resources.GetObject("back_.CheckedImage")));
+            this.back_.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.back_.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.back_.FocusedColor = System.Drawing.Color.Empty;
+            this.back_.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.back_.ForeColor = System.Drawing.Color.White;
+            this.back_.Image = null;
+            this.back_.ImageSize = new System.Drawing.Size(20, 20);
+            this.back_.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.back_.Location = new System.Drawing.Point(92, 608);
+            this.back_.Name = "back_";
+            this.back_.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.back_.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.back_.OnHoverForeColor = System.Drawing.Color.White;
+            this.back_.OnHoverImage = null;
+            this.back_.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.back_.OnPressedColor = System.Drawing.Color.Black;
+            this.back_.Size = new System.Drawing.Size(91, 38);
+            this.back_.TabIndex = 34;
+            this.back_.Text = "Back";
+            this.back_.Click += new System.EventHandler(this.back__Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(1050, 123);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(55, 16);
+            this.label4.TabIndex = 35;
+            this.label4.Text = "Platter 1";
+            // 
+            // txt_platter1
+            // 
+            this.txt_platter1.Location = new System.Drawing.Point(1151, 120);
+            this.txt_platter1.Name = "txt_platter1";
+            this.txt_platter1.Size = new System.Drawing.Size(100, 22);
+            this.txt_platter1.TabIndex = 36;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(1050, 186);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(55, 16);
+            this.label5.TabIndex = 37;
+            this.label5.Text = "Platter 2";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(1050, 254);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(55, 16);
+            this.label6.TabIndex = 38;
+            this.label6.Text = "Platter 3";
+            // 
+            // txt_platter2
+            // 
+            this.txt_platter2.Location = new System.Drawing.Point(1151, 180);
+            this.txt_platter2.Name = "txt_platter2";
+            this.txt_platter2.Size = new System.Drawing.Size(100, 22);
+            this.txt_platter2.TabIndex = 39;
+            // 
+            // txt_platter3
+            // 
+            this.txt_platter3.Location = new System.Drawing.Point(1151, 248);
+            this.txt_platter3.Name = "txt_platter3";
+            this.txt_platter3.Size = new System.Drawing.Size(100, 22);
+            this.txt_platter3.TabIndex = 40;
+            // 
             // Nonres_Dash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1032, 641);
+            this.ClientSize = new System.Drawing.Size(1511, 709);
+            this.Controls.Add(this.txt_platter3);
+            this.Controls.Add(this.txt_platter2);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.txt_platter1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.back_);
+            this.Controls.Add(this.gunaGradientButton1);
             this.Controls.Add(this.btn_place_order);
             this.Controls.Add(this.dgw_order);
             this.Controls.Add(this.cmb_platter);
@@ -167,6 +292,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Nonres_Dash";
             this.Text = "Nonres_Dash";
+            this.Load += new System.EventHandler(this.Nonres_Dash_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgw_order)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -183,5 +309,13 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cmb_day;
         private System.Windows.Forms.Label label1;
+        private Guna.UI.WinForms.GunaGradientButton gunaGradientButton1;
+        private Guna.UI.WinForms.GunaAdvenceButton back_;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txt_platter1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txt_platter2;
+        private System.Windows.Forms.TextBox txt_platter3;
     }
 }
