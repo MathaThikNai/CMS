@@ -40,6 +40,8 @@
             this.back = new Guna.UI.WinForms.GunaAdvenceButton();
             this.dgw_res = new System.Windows.Forms.DataGridView();
             this.dgw_nonres = new System.Windows.Forms.DataGridView();
+            this.btn_clr_res = new Guna.UI.WinForms.GunaGradientButton();
+            this.btn_clr_nonres = new Guna.UI.WinForms.GunaGradientButton();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgw_res)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgw_nonres)).BeginInit();
@@ -112,7 +114,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(678, 271);
+            this.label4.Location = new System.Drawing.Point(770, 271);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(200, 32);
             this.label4.TabIndex = 2;
@@ -179,11 +181,67 @@
             this.dgw_nonres.Size = new System.Drawing.Size(522, 374);
             this.dgw_nonres.TabIndex = 24;
             // 
+            // btn_clr_res
+            // 
+            this.btn_clr_res.AnimationHoverSpeed = 0.07F;
+            this.btn_clr_res.AnimationSpeed = 0.03F;
+            this.btn_clr_res.BaseColor1 = System.Drawing.Color.SlateBlue;
+            this.btn_clr_res.BaseColor2 = System.Drawing.Color.Fuchsia;
+            this.btn_clr_res.BorderColor = System.Drawing.Color.Black;
+            this.btn_clr_res.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_clr_res.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_clr_res.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_clr_res.ForeColor = System.Drawing.Color.White;
+            this.btn_clr_res.Image = null;
+            this.btn_clr_res.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_clr_res.Location = new System.Drawing.Point(108, 699);
+            this.btn_clr_res.Name = "btn_clr_res";
+            this.btn_clr_res.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(145)))), ((int)(((byte)(221)))));
+            this.btn_clr_res.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
+            this.btn_clr_res.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_clr_res.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_clr_res.OnHoverImage = null;
+            this.btn_clr_res.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_clr_res.Size = new System.Drawing.Size(286, 42);
+            this.btn_clr_res.TabIndex = 25;
+            this.btn_clr_res.Text = "Clear Data";
+            this.btn_clr_res.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_clr_res.Click += new System.EventHandler(this.btn_clr_res_Click);
+            // 
+            // btn_clr_nonres
+            // 
+            this.btn_clr_nonres.AnimationHoverSpeed = 0.07F;
+            this.btn_clr_nonres.AnimationSpeed = 0.03F;
+            this.btn_clr_nonres.BaseColor1 = System.Drawing.Color.SlateBlue;
+            this.btn_clr_nonres.BaseColor2 = System.Drawing.Color.Fuchsia;
+            this.btn_clr_nonres.BorderColor = System.Drawing.Color.Black;
+            this.btn_clr_nonres.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_clr_nonres.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_clr_nonres.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_clr_nonres.ForeColor = System.Drawing.Color.White;
+            this.btn_clr_nonres.Image = null;
+            this.btn_clr_nonres.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_clr_nonres.Location = new System.Drawing.Point(734, 699);
+            this.btn_clr_nonres.Name = "btn_clr_nonres";
+            this.btn_clr_nonres.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(145)))), ((int)(((byte)(221)))));
+            this.btn_clr_nonres.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
+            this.btn_clr_nonres.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_clr_nonres.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_clr_nonres.OnHoverImage = null;
+            this.btn_clr_nonres.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_clr_nonres.Size = new System.Drawing.Size(286, 42);
+            this.btn_clr_nonres.TabIndex = 26;
+            this.btn_clr_nonres.Text = "Clear Data";
+            this.btn_clr_nonres.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_clr_nonres.Click += new System.EventHandler(this.btn_clr_nonres_Click);
+            // 
             // Admin_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1212, 713);
+            this.ClientSize = new System.Drawing.Size(1212, 784);
+            this.Controls.Add(this.btn_clr_nonres);
+            this.Controls.Add(this.btn_clr_res);
             this.Controls.Add(this.dgw_nonres);
             this.Controls.Add(this.dgw_res);
             this.Controls.Add(this.back);
@@ -216,5 +274,7 @@
         private Guna.UI.WinForms.GunaAdvenceButton back;
         private System.Windows.Forms.DataGridView dgw_res;
         private System.Windows.Forms.DataGridView dgw_nonres;
+        private Guna.UI.WinForms.GunaGradientButton btn_clr_res;
+        private Guna.UI.WinForms.GunaGradientButton btn_clr_nonres;
     }
 }

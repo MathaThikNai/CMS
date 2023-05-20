@@ -34,12 +34,12 @@ namespace Cafeteria_Management_System
     {
         public int payment { get; set; }
 
-        public NonResOrder(string day, string type, string menu)
+        public NonResOrder(string day, string type, string menu,int payment)
         {
             this.day = day;
             this.type = type;
             this.menu = menu;
-
+            this.payment = payment;
         }
     }
 }

@@ -123,5 +123,74 @@ namespace Cafeteria_Management_System
             fill_nonres();
             fill_res();
         }
+
+        private void btn_clr_res_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+
+                conn.Open();
+
+
+                string t = "DELETE * FROM order_table";
+
+                cmd = new OleDbCommand(t, conn);
+
+
+
+
+                cmd.ExecuteNonQuery();
+                conn.Close();
+
+
+                MessageBox.Show("DELETED!");
+
+                fill_res();
+
+
+            }
+            
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btn_clr_nonres_Click(object sender, EventArgs e)
+        {
+
+
+            try
+            {
+
+
+                conn.Open();
+
+
+                string t = "DELETE * FROM nonres_order_table";
+
+                cmd = new OleDbCommand(t, conn);
+
+
+
+
+                cmd.ExecuteNonQuery();
+                conn.Close();
+
+
+                MessageBox.Show("DELETED!");
+
+                fill_nonres();
+
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+
+        }
     }
 }

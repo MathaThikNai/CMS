@@ -41,6 +41,7 @@ namespace Cafeteria_Management_System
             f = txt_platter1.Text;
             g = txt_platter2.Text;
             h = txt_platter3.Text;
+            MessageBox.Show("Menu Has Been Updated");
         }
     }
 }

@@ -31,7 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(firstForm));
             this.btn_admin = new Guna.UI.WinForms.GunaGradientButton();
             this.btn_stdnt = new Guna.UI.WinForms.GunaGradientButton();
-            this.gunaGradient = new Guna.UI.WinForms.GunaGradientButton();
+            this.gunaGradientCircleButton1 = new Guna.UI.WinForms.GunaGradientCircleButton();
+            this.gunaGradientCircleButton2 = new Guna.UI.WinForms.GunaGradientCircleButton();
+            this.gunaGradientCircleButton3 = new Guna.UI.WinForms.GunaGradientCircleButton();
             this.SuspendLayout();
             // 
             // btn_admin
@@ -95,35 +97,86 @@
             this.btn_stdnt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.btn_stdnt.Click += new System.EventHandler(this.btn_stdnt_Click);
             // 
-            // gunaGradient
+            // gunaGradientCircleButton1
             // 
-            this.gunaGradient.AnimationHoverSpeed = 0.07F;
-            this.gunaGradient.AnimationSpeed = 0.03F;
-            this.gunaGradient.BackColor = System.Drawing.Color.Transparent;
-            this.gunaGradient.BaseColor1 = System.Drawing.Color.Aquamarine;
-            this.gunaGradient.BaseColor2 = System.Drawing.Color.LightSeaGreen;
-            this.gunaGradient.BorderColor = System.Drawing.Color.Black;
-            this.gunaGradient.BorderSize = 1;
-            this.gunaGradient.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaGradient.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.gunaGradient.Font = new System.Drawing.Font("Eras Demi ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaGradient.ForeColor = System.Drawing.Color.White;
-            this.gunaGradient.Image = null;
-            this.gunaGradient.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaGradient.Location = new System.Drawing.Point(116, 49);
-            this.gunaGradient.Name = "gunaGradient";
-            this.gunaGradient.OnHoverBaseColor1 = System.Drawing.Color.Aquamarine;
-            this.gunaGradient.OnHoverBaseColor2 = System.Drawing.Color.LightSeaGreen;
-            this.gunaGradient.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaGradient.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaGradient.OnHoverImage = null;
-            this.gunaGradient.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaGradient.Radius = 45;
-            this.gunaGradient.Size = new System.Drawing.Size(1029, 272);
-            this.gunaGradient.TabIndex = 19;
-            this.gunaGradient.Text = "CAFETERIA MANAGEMENT";
-            this.gunaGradient.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.gunaGradient.Click += new System.EventHandler(this.btn_stdnt_Click);
+            this.gunaGradientCircleButton1.Animated = true;
+            this.gunaGradientCircleButton1.AnimationHoverSpeed = 0.07F;
+            this.gunaGradientCircleButton1.AnimationSpeed = 0.03F;
+            this.gunaGradientCircleButton1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaGradientCircleButton1.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(18)))), ((int)(((byte)(49)))));
+            this.gunaGradientCircleButton1.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(154)))), ((int)(((byte)(123)))));
+            this.gunaGradientCircleButton1.BorderColor = System.Drawing.Color.Black;
+            this.gunaGradientCircleButton1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaGradientCircleButton1.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaGradientCircleButton1.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaGradientCircleButton1.ForeColor = System.Drawing.Color.White;
+            this.gunaGradientCircleButton1.Image = null;
+            this.gunaGradientCircleButton1.ImageSize = new System.Drawing.Size(52, 52);
+            this.gunaGradientCircleButton1.Location = new System.Drawing.Point(348, 97);
+            this.gunaGradientCircleButton1.Name = "gunaGradientCircleButton1";
+            this.gunaGradientCircleButton1.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(154)))), ((int)(((byte)(123)))));
+            this.gunaGradientCircleButton1.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(18)))), ((int)(((byte)(49)))));
+            this.gunaGradientCircleButton1.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaGradientCircleButton1.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaGradientCircleButton1.OnHoverImage = null;
+            this.gunaGradientCircleButton1.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaGradientCircleButton1.Size = new System.Drawing.Size(194, 208);
+            this.gunaGradientCircleButton1.TabIndex = 20;
+            this.gunaGradientCircleButton1.Text = "CAFE";
+            // 
+            // gunaGradientCircleButton2
+            // 
+            this.gunaGradientCircleButton2.Animated = true;
+            this.gunaGradientCircleButton2.AnimationHoverSpeed = 0.07F;
+            this.gunaGradientCircleButton2.AnimationSpeed = 0.03F;
+            this.gunaGradientCircleButton2.BackColor = System.Drawing.Color.Transparent;
+            this.gunaGradientCircleButton2.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(18)))), ((int)(((byte)(49)))));
+            this.gunaGradientCircleButton2.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(154)))), ((int)(((byte)(123)))));
+            this.gunaGradientCircleButton2.BorderColor = System.Drawing.Color.Black;
+            this.gunaGradientCircleButton2.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaGradientCircleButton2.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaGradientCircleButton2.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaGradientCircleButton2.ForeColor = System.Drawing.Color.White;
+            this.gunaGradientCircleButton2.Image = null;
+            this.gunaGradientCircleButton2.ImageSize = new System.Drawing.Size(52, 52);
+            this.gunaGradientCircleButton2.Location = new System.Drawing.Point(548, 36);
+            this.gunaGradientCircleButton2.Name = "gunaGradientCircleButton2";
+            this.gunaGradientCircleButton2.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(154)))), ((int)(((byte)(123)))));
+            this.gunaGradientCircleButton2.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(18)))), ((int)(((byte)(49)))));
+            this.gunaGradientCircleButton2.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaGradientCircleButton2.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaGradientCircleButton2.OnHoverImage = null;
+            this.gunaGradientCircleButton2.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaGradientCircleButton2.Size = new System.Drawing.Size(255, 269);
+            this.gunaGradientCircleButton2.TabIndex = 21;
+            this.gunaGradientCircleButton2.Text = "Management";
+            // 
+            // gunaGradientCircleButton3
+            // 
+            this.gunaGradientCircleButton3.Animated = true;
+            this.gunaGradientCircleButton3.AnimationHoverSpeed = 0.07F;
+            this.gunaGradientCircleButton3.AnimationSpeed = 0.03F;
+            this.gunaGradientCircleButton3.BackColor = System.Drawing.Color.Transparent;
+            this.gunaGradientCircleButton3.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(18)))), ((int)(((byte)(49)))));
+            this.gunaGradientCircleButton3.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(154)))), ((int)(((byte)(123)))));
+            this.gunaGradientCircleButton3.BorderColor = System.Drawing.Color.Black;
+            this.gunaGradientCircleButton3.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaGradientCircleButton3.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaGradientCircleButton3.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaGradientCircleButton3.ForeColor = System.Drawing.Color.White;
+            this.gunaGradientCircleButton3.Image = null;
+            this.gunaGradientCircleButton3.ImageSize = new System.Drawing.Size(52, 52);
+            this.gunaGradientCircleButton3.Location = new System.Drawing.Point(809, 97);
+            this.gunaGradientCircleButton3.Name = "gunaGradientCircleButton3";
+            this.gunaGradientCircleButton3.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(154)))), ((int)(((byte)(123)))));
+            this.gunaGradientCircleButton3.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(18)))), ((int)(((byte)(49)))));
+            this.gunaGradientCircleButton3.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaGradientCircleButton3.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaGradientCircleButton3.OnHoverImage = null;
+            this.gunaGradientCircleButton3.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaGradientCircleButton3.Size = new System.Drawing.Size(194, 208);
+            this.gunaGradientCircleButton3.TabIndex = 22;
+            this.gunaGradientCircleButton3.Text = "System";
             // 
             // firstForm
             // 
@@ -132,7 +185,9 @@
             this.BackColor = System.Drawing.Color.Chocolate;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1275, 712);
-            this.Controls.Add(this.gunaGradient);
+            this.Controls.Add(this.gunaGradientCircleButton3);
+            this.Controls.Add(this.gunaGradientCircleButton2);
+            this.Controls.Add(this.gunaGradientCircleButton1);
             this.Controls.Add(this.btn_stdnt);
             this.Controls.Add(this.btn_admin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
@@ -147,6 +202,8 @@
 
         private Guna.UI.WinForms.GunaGradientButton btn_admin;
         private Guna.UI.WinForms.GunaGradientButton btn_stdnt;
-        private Guna.UI.WinForms.GunaGradientButton gunaGradient;
+        private Guna.UI.WinForms.GunaGradientCircleButton gunaGradientCircleButton1;
+        private Guna.UI.WinForms.GunaGradientCircleButton gunaGradientCircleButton2;
+        private Guna.UI.WinForms.GunaGradientCircleButton gunaGradientCircleButton3;
     }
 }

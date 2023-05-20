@@ -37,7 +37,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.cmb_day = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.gunaGradientButton1 = new Guna.UI.WinForms.GunaGradientButton();
             this.back_ = new Guna.UI.WinForms.GunaAdvenceButton();
             this.label4 = new System.Windows.Forms.Label();
             this.txt_platter1 = new System.Windows.Forms.TextBox();
@@ -45,6 +44,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txt_platter2 = new System.Windows.Forms.TextBox();
             this.txt_platter3 = new System.Windows.Forms.TextBox();
+            this.btn_pay = new Guna.UI.WinForms.GunaGradientButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgw_order)).BeginInit();
             this.SuspendLayout();
             // 
@@ -79,6 +79,7 @@
             // 
             // dgw_order
             // 
+            this.dgw_order.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgw_order.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgw_order.Location = new System.Drawing.Point(55, 123);
             this.dgw_order.Name = "dgw_order";
@@ -161,35 +162,6 @@
             this.label1.TabIndex = 25;
             this.label1.Text = "Day";
             // 
-            // gunaGradientButton1
-            // 
-            this.gunaGradientButton1.AnimationHoverSpeed = 0.07F;
-            this.gunaGradientButton1.AnimationSpeed = 0.03F;
-            this.gunaGradientButton1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaGradientButton1.BaseColor1 = System.Drawing.Color.SlateBlue;
-            this.gunaGradientButton1.BaseColor2 = System.Drawing.Color.Fuchsia;
-            this.gunaGradientButton1.BorderColor = System.Drawing.Color.Black;
-            this.gunaGradientButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaGradientButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaGradientButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaGradientButton1.ForeColor = System.Drawing.Color.White;
-            this.gunaGradientButton1.Image = null;
-            this.gunaGradientButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaGradientButton1.Location = new System.Drawing.Point(748, 575);
-            this.gunaGradientButton1.Name = "gunaGradientButton1";
-            this.gunaGradientButton1.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(145)))), ((int)(((byte)(221)))));
-            this.gunaGradientButton1.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
-            this.gunaGradientButton1.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaGradientButton1.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaGradientButton1.OnHoverImage = null;
-            this.gunaGradientButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaGradientButton1.Radius = 20;
-            this.gunaGradientButton1.Size = new System.Drawing.Size(208, 54);
-            this.gunaGradientButton1.TabIndex = 32;
-            this.gunaGradientButton1.Text = "Payment";
-            this.gunaGradientButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.gunaGradientButton1.Click += new System.EventHandler(this.btn_place_order_Click);
-            // 
             // back_
             // 
             this.back_.AnimationHoverSpeed = 0.07F;
@@ -269,11 +241,41 @@
             this.txt_platter3.Size = new System.Drawing.Size(100, 22);
             this.txt_platter3.TabIndex = 40;
             // 
+            // btn_pay
+            // 
+            this.btn_pay.AnimationHoverSpeed = 0.07F;
+            this.btn_pay.AnimationSpeed = 0.03F;
+            this.btn_pay.BackColor = System.Drawing.Color.Transparent;
+            this.btn_pay.BaseColor1 = System.Drawing.Color.SlateBlue;
+            this.btn_pay.BaseColor2 = System.Drawing.Color.Fuchsia;
+            this.btn_pay.BorderColor = System.Drawing.Color.Black;
+            this.btn_pay.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_pay.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_pay.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_pay.ForeColor = System.Drawing.Color.White;
+            this.btn_pay.Image = null;
+            this.btn_pay.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_pay.Location = new System.Drawing.Point(748, 575);
+            this.btn_pay.Name = "btn_pay";
+            this.btn_pay.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(145)))), ((int)(((byte)(221)))));
+            this.btn_pay.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
+            this.btn_pay.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_pay.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_pay.OnHoverImage = null;
+            this.btn_pay.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_pay.Radius = 20;
+            this.btn_pay.Size = new System.Drawing.Size(208, 54);
+            this.btn_pay.TabIndex = 41;
+            this.btn_pay.Text = "Payment";
+            this.btn_pay.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_pay.Click += new System.EventHandler(this.btn_pay_Click);
+            // 
             // Nonres_Dash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1511, 709);
+            this.Controls.Add(this.btn_pay);
             this.Controls.Add(this.txt_platter3);
             this.Controls.Add(this.txt_platter2);
             this.Controls.Add(this.label6);
@@ -281,7 +283,6 @@
             this.Controls.Add(this.txt_platter1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.back_);
-            this.Controls.Add(this.gunaGradientButton1);
             this.Controls.Add(this.btn_place_order);
             this.Controls.Add(this.dgw_order);
             this.Controls.Add(this.cmb_platter);
@@ -309,7 +310,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cmb_day;
         private System.Windows.Forms.Label label1;
-        private Guna.UI.WinForms.GunaGradientButton gunaGradientButton1;
         private Guna.UI.WinForms.GunaAdvenceButton back_;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txt_platter1;
@@ -317,5 +317,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txt_platter2;
         private System.Windows.Forms.TextBox txt_platter3;
+        private Guna.UI.WinForms.GunaGradientButton btn_pay;
     }
 }
