@@ -132,6 +132,9 @@ namespace Cafeteria_Management_System
 
         private void dashboard_Load(object sender, EventArgs e)
         {
+            txt_platter1r.Text = menu_update.f;
+            txt_platter2r.Text = menu_update.g;
+            txt_platter3r.Text = menu_update.h;
             fill_order();
         }
 
@@ -139,6 +142,11 @@ namespace Cafeteria_Management_System
         {
             this.Hide();
             new firstForm().Show();
+        }
+
+        private void txt_platter1r_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

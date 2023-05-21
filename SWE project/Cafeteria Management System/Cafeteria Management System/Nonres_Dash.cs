@@ -141,7 +141,7 @@ namespace Cafeteria_Management_System
 
                 fill_order();
 
-                MessageBox.Show("Order placed!");
+                MessageBox.Show("Your order has been placed");
 
 
 
@@ -170,11 +170,24 @@ namespace Cafeteria_Management_System
             txt_platter1.Text = menu_update.f;
             txt_platter2.Text = menu_update.g;
             txt_platter3.Text = menu_update.h;
+           
+
+
         }
 
         private void btn_pay_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Payment Has been done!");
+            MessageBox.Show("Payment done");
+        }
+
+        private void txt_platter1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
