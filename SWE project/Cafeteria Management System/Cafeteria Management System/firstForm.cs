@@ -76,6 +76,18 @@ namespace Cafeteria_Management_System
         private void firstForm_Load(object sender, EventArgs e)
         {
             fill_arr_of_stdnts();
+            timer1.Start();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label1.Text = DateTime.Now.ToLongTimeString();
+            label2.Text = DateTime.Now.ToLongDateString();
         }
     }
 }
